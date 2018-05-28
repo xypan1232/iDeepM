@@ -304,13 +304,14 @@ def set_cnn_model(input_dim=4, input_length=2705, nbfilter = 101):
                      # activation="relu",
                      subsample_length=1))
     model.add(Activation('relu'))
+    model.add(BatchNormalization())
     model.add(MaxPooling1D(pool_length=3))
 
     model.add(Flatten())
 
-
     model.add(Dropout(0.5))
     model.add(Dense(nbfilter * 2, activation='relu'))
+    model.add(BatchNormalization())
     model.add(Dropout(0.5))
 
     return model
