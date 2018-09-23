@@ -397,13 +397,6 @@ def run_mlcnn():
     print f1_score(test_labels, preds, average='weighted')
 
 
-    preds[preds>=0.5] = 1
-    preds[preds<0.5] = 0
-
-    print f1_score(test_labels, preds, average='macro')
-    print f1_score(test_labels, preds, average='micro')
-    print f1_score(test_labels, preds, average='weighted')
-
 
 run_mlcnn()
 
