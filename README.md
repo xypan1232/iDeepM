@@ -10,3 +10,6 @@ Sklearn (https://github.com/scikit-learn/scikit-learn)
 
 # Data
 The data is downloaded from https://github.com/gianlucacorrado/RNAcommender/tree/master/examples, it contains 67 proteins and binding UTR sequences
+
+# Reference
+Xiaoyong Pan^, Yong-Xian Fan, Jue Jia, Hong-Bin Shen^. <a href="https://link.springer.com/article/10.1007/s11432-018-9558-2">Identifying RNA-binding proteins using multi-label deep learning</a>. SCIENCE CHINA Information Sciences. 2019, 62(1). 
