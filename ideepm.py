@@ -194,7 +194,7 @@ def get_rnarecommend(inter_pair_dict, rna_seq_dict, protein_list):
         init_labels[np.array(inds)] = 1
         labels.append(init_labels)
         rna_seqs.append(rna_seq)
-    pdb.set_trace()
+    #pdb.set_trace()
     max_num_targets = np.sum(labels, axis =0).max()
     # negatives
 
