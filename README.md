@@ -6,7 +6,7 @@ In this study, we present a multi-label deep learning method called iDeepM to pr
 # Dependency:
 python 2.7 <br>
 Keras 1.2 (https://github.com/keras-team/keras ) and its backend is theano 0.9 <br>
-Sklearn (https://github.com/scikit-learn/scikit-learn)
+Sklearn v0.18 (https://github.com/scikit-learn/scikit-learn)
 
 # Data
 The data is downloaded from https://github.com/gianlucacorrado/RNAcommender/tree/master/examples, it contains 67 proteins and binding UTR sequences
