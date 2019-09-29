@@ -9,7 +9,7 @@ Keras 1.2 (https://github.com/keras-team/keras ) and its backend is theano 0.9 <
 Sklearn v0.18 (https://github.com/scikit-learn/scikit-learn)
 
 # Data
-The data is downloaded from https://github.com/gianlucacorrado/RNAcommender/tree/master/examples, it contains 67 proteins and binding UTR sequences
+The data is downloaded from https://github.com/gianlucacorrado/RNAcommender/tree/master/examples, it contains 67 proteins and binding UTR sequences. we also require other UTR sequence to extract negative sequecnes, UTR_hg19.fasta is downloaded from http://aura.science.unitn.it/site_media/download/UTR_hg19.fasta .
 
 # Reference
 Xiaoyong Pan^, Yong-Xian Fan, Jue Jia, Hong-Bin Shen^. <a href="https://link.springer.com/article/10.1007/s11432-018-9558-2">Identifying RNA-binding proteins using multi-label deep learning</a>. SCIENCE CHINA Information Sciences. 2019, 62(1). 
